@@ -18,6 +18,7 @@ function App() {
         <NumberFiledComponent filedName='License Number' /><br /><br />
         <SelectFiledComponent filedName='Car Kind' /><br /><br />
         <DateFiledComponent filedName='Creation Date' /><br /><br />
+        <input type="submit" value="Submit"></input>
       </form>
     </div>
     </>
