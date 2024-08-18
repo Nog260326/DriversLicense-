@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header{
+  font-size: 35px;
+  color: bisque;
+}
+
+.form{
+  position: absolute;
+  left: 4%;
+  top: 8%;
+}
+
