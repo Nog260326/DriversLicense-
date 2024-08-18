@@ -3,10 +3,12 @@ import './SelectFiledComponent.css';
 
 interface SelectFiledComponentProps{
     filedName: string,
+    handleCallback: Function
 }
 
 export const SelectFiledComponent: FC<SelectFiledComponentProps> = (props) => {
     return(
+        <>
         <label className='selectFiled'>{props.filedName}:
             <select name="CarKind" id="CarKind">
                 <option value="A">A</option>
@@ -23,5 +25,9 @@ export const SelectFiledComponent: FC<SelectFiledComponentProps> = (props) => {
                 <option value="1">1</option>
             </select>
         </label>
+        <div>
+            {props.handleCallback("correct")}
+        </div>
+        </>
     );
 }
